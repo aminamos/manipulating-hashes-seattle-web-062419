@@ -8,7 +8,8 @@ def second_challenge
 
   #code your solution here!
   
-  array = groceries.values.join(", ")
+  array = []
+  groceries.values.join(", ")
   array
   
 end
