@@ -15,6 +15,7 @@ def first_challenge
 
   #your code here
 
+first_challenge[:contacts][]
 
   #remember to return your newly altered contacts hash!
   contacts
