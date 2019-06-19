@@ -10,5 +10,6 @@ def second_challenge
   
   array = []
   # array << groceries.values.join(", ")
-  groceries.values.join
+  array << groceries.values
+  array
 end
