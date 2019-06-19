@@ -16,7 +16,7 @@ def first_challenge
   #your code here
 
   contacts.each {|person, data|
-    data.each {|attribute, value| value.delete_if == "strawberry"}
+    data.each {|attribute, value| value.delete == "strawberry"}
   }
 # first_challenge[:contacts]["Freddy Mercury"][:favorite_icecream_flavors].delete_if {|value| value == "strawberry"}
 
